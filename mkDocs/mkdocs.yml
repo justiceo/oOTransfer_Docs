@@ -1,1 +1,18 @@
-site_name: My Docs
+site_name: oOTransfer API Docs
+site_url: http://localhost/
+repo_url: https://github.com/justiceo/oOTransfer_Docs
+site_author: Justice Ogbonna
+copyright: 2016 @ Justiceo.com
+
+docs_dir: 'docs'
+site_dir: 'site'
+pages:
+    - Introduction : 'index.md'
+    - User Account : 'account.md'
+    - Transaction : 
+        - 'Creating A Transaction' : 'transactions/create.md'
+        - 'Managing Transactions' : 'transactions/manage.md'
+        - 'Monitoring a Transaction' : 'transactions/monitor.md'
+
+theme: 'readthedocs'
+
